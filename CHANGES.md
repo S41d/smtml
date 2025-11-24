@@ -1,7 +1,10 @@
 # Changelog
 
-## 0.14.0 - 2025-11-17
+## 0.1.0 - 2025-11-24
 
+- 2025-11-18 Correct capitalization in README.md
+- 2025-11-18 Update README with logo and project details
+- 2025-11-17 Release 0.14.0
 - 2025-11-17 Add `threads` to smtml's libraries stanza
 - 2025-11-17 Add draft smtml logo
 - 2025-11-14 Promote tests
@@ -10,9 +13,6 @@
 - 2025-10-29 Bring back collections-c benchmarking as a test
 - 2025-10-29 Add new datasets directory
 - 2025-10-29 Remove old datasets dir
-
-## 0.13.0 - 2025-10-27
-
 - 2025-10-27 Release 0.13.0
 - 2025-10-24 Bump ocamlformat 0.27.0 -> 0.28.1
 - 2025-10-24 Expose solver mappings to declare non-parametric datatypes
@@ -28,9 +28,6 @@
 - 2025-10-22 Replace Format with Fmt
 - 2025-10-22 Fix the order of formulas printed by the z3 mapping printer
 - 2025-10-07 Unpin opam-publish in publish CI
-
-## 0.12.0 - 2025-10-06
-
 - 2025-10-06 Release 0.12.0
 - 2025-10-06 Backwards compatibility with ocaml 4.14
 - 2025-10-03 Improve error message on missing solver ([#424](https://github.com/formalsec/smtml/issues/424))
@@ -44,16 +41,10 @@
 - 2025-10-01 Rely on `ctx` only for colibri2's models
 - 2025-09-29 Fix Expr_raw module interface
 - 2025-09-29 Log SMT queries and execution times to serialized files
-
-## 0.11.0 - 2025-09-21
-
 - 2025-09-21 Automatic release scripts and workflow ([#386](https://github.com/formalsec/smtml/issues/386))
 - 2025-09-07 Add new `Loc` expression to model abstract locations ([#382](https://github.com/formalsec/smtml/issues/382))
 - 2025-08-27 Fix cache key in cached solver mode
 - 2025-08-26 Update maintenance intent to include any patch to the previous version
-
-## 0.10.0 - 2025-08-26
-
 - 2025-08-26 Release v0.10.0
 - 2025-08-26 Fix lints
 - 2025-08-26 Add lint step in build CI and refactor solver CI
@@ -68,18 +59,12 @@
 - 2025-08-11 Add missing operators
 - 2025-08-11 Fix type propagation during rewriting
 - 2025-08-10 Release v0.9.0
-
-## 0.9.0 - 2025-07-31
-
 - 2025-07-31 Patch Expr.relop to accept theory specific types for equality ([#394](https://github.com/formalsec/smtml/issues/394))
 - 2025-07-31 Add CODEOWNERS
 - 2025-07-26 [fix] Construction phormulas with int equality
 - 2025-07-23 Allow smtml to compile with z3 4.15.x ([#391](https://github.com/formalsec/smtml/issues/391))
 - 2025-07-22 Avoid integer overflow when creating Dolmen terms in Bitv.v by using Zarith
 - 2025-07-20 Use git-cliff for automatic changelog generation ([#388](https://github.com/formalsec/smtml/issues/388))
-
-## 0.8.0 - 2025-07-05
-
 - 2025-07-05 Release v0.8.0
 - 2025-07-01 Add `Solver_dispatcher.supported_solvers` list
 - 2025-06-27 Add alt-ergo to list of available solver to check
@@ -155,9 +140,6 @@
 - 2025-05-12 Add logical implication
 - 2025-05-12 Fix the comments on logical connectives
 - 2025-05-12 Handle unknown smt2 functions as apps
-
-## 0.7.0 - 2025-05-07
-
 - 2025-05-07 Update changelog for v0.7.0
 - 2025-05-07 Revert some unecessary changes
 - 2025-05-07 Forgot to do dune b @all before commiting
@@ -229,9 +211,6 @@
 - 2025-04-24 Remove cvc5 pin ([#309](https://github.com/formalsec/smtml/issues/309))
 - 2025-04-24 Fix cvc5 mappings
 - 2025-04-18 Parse booleans
-
-## 0.6.3 - 2025-04-16
-
 - 2025-04-16 Add a message to concrete eval's `TypeError` ([#321](https://github.com/formalsec/smtml/issues/321))
 - 2025-04-16 Prepare v0.6.3
 - 2025-04-09 More efficient version of popcount
@@ -240,9 +219,6 @@
 - 2025-04-09 Fmt
 - 2025-04-09 Add popcnt boilerplate
 - 2025-04-03 Update patricia-tree lower bounds to 0.11.0
-
-## 0.6.2 - 2025-04-03
-
 - 2025-04-03 Prepare release v0.6.2
 - 2025-04-02 Add missing trunc operators
 - 2025-04-02 Export missing exceptions in `Eval`
@@ -254,18 +230,12 @@
 - 2025-03-20 Bump z3 upperbound to 4.15
 - 2025-03-16 Rewrite chained ites in a more branchable way
 - 2025-03-16 Add int.of_string
-
-## 0.6.1 - 2025-03-07
-
 - 2025-03-07 Update CHANGES.md
 - 2025-03-07 Remove alt-ergo-lib pin and make it compile with 2.6.0
 - 2025-03-06 Update CHANGES.md
 - 2025-03-06 Add round-trip test for json model serialization/deserialization
 - 2025-03-06 Fixes `Num.to_json`
 - 2025-03-06 Fixes `to_json_string`
-
-## 0.6.0 - 2025-03-05
-
 - 2025-03-05 Update src/smtml/solver.ml
 - 2025-03-05 Update `CHANGES.md`
 - 2025-03-05 Promote tests
@@ -302,9 +272,6 @@
 - 2025-02-08 Make `dune-glob` a dev dependency
 - 2025-02-08 Fixes `Value.compare` ([#210](https://github.com/formalsec/smtml/issues/210))
 - 2025-02-07 Fix project description ([#199](https://github.com/formalsec/smtml/issues/199))
-
-## 0.5.0 - 2025-02-05
-
 - 2025-02-05 Allow manual dispatch for solver workflows
 - 2025-02-05 Prepare v0.5.0
 - 2025-02-05 Fix doc
@@ -327,18 +294,12 @@
 - 2024-12-04 Promote tests
 - 2024-12-04 Use named arguments in sub-commands (inspired by OCamlPro/owi#461)
 - 2024-12-04 Update ocamlformat and format code
-
-## 0.4.1 - 2024-12-03
-
 - 2024-12-03 Fix bug in parsing of Num.t
 - 2024-12-02 Prepare 0.4.1
 - 2024-12-02 Promote tests
 - 2024-12-02 Update pp_bindings
 - 2024-12-02 Add a ~no_value option to Model.{to_scfg,to_scfg_string}
 - 2024-12-02 Do not print num type in Value.pp
-
-## 0.4.0 - 2024-12-02
-
 - 2024-12-02 0.4.0
 - 2024-12-01 Adds json model parsing
 - 2024-12-01 Add parsing utilities to `Value`
@@ -349,9 +310,6 @@
 - 2024-11-24 Update benchpress pin
 - 2024-11-22 Allow specifying number of benchmarks in eval scripts
 - 2024-11-20 Add missing flag to scripts
-
-## 0.3.1 - 2024-11-06
-
 - 2024-11-06 Prepare v0.3.1
 - 2024-11-06 Update CHANGES.md
 - 2024-11-06 Fixes incorrect type calculation of bitv `*_extend` ops
@@ -361,9 +319,6 @@
 - 2024-11-06 Bump bitwuzla conflict 0.4.0 -> 0.6.0
 - 2024-10-28 Attempt to fix deploy CI
 - 2024-10-28 Fixes Dockerfile
-
-## 0.3.0 - 2024-10-25
-
 - 2024-10-25 Update CHANGES.md
 - 2024-10-25 Artifact: finishing touches
 - 2024-10-25 Rename variable in test_bv.ml
@@ -503,9 +458,6 @@
 - 2024-08-27 Simplify subtractions with ptr
 - 2024-08-26 Try to improve expression formatting
 - 2024-08-21 Remove constraints from depopts
-
-## 0.2.5 - 2024-08-21
-
 - 2024-08-21 Release v0.2.5
 - 2024-08-21 Cvc5 default options and CI tests
 - 2024-08-20 Bump actions/upload-pages-artifact from 2 to 3
@@ -518,16 +470,10 @@
 - 2024-08-03 Reorganise some stuff
 - 2024-07-28 Test nan equality for reals as well
 - 2024-07-27 Remaining cases for pattern matching
-
-## 0.2.4 - 2024-07-26
-
 - 2024-07-26 Use prelude.0.3
 - 2024-07-26 Fixes `bisect.exclude`
 - 2024-07-25 Rename `lib` -> `src`
 - 2024-07-25 Update fmt lowerbound
-
-## 0.2.3 - 2024-07-25
-
 - 2024-07-25 Dune fmt
 - 2024-07-25 Promote tests
 - 2024-07-25 Rever `Num.pp` hex printing
@@ -537,9 +483,6 @@
 - 2024-07-23 Fix polymorphic comparison
 - 2024-07-23 Use prelude
 - 2024-07-19 Add Yojson lowerbound
-
-## 0.2.2 - 2024-07-18
-
 - 2024-07-18 Prepare v0.2.2
 - 2024-07-18 Allow creating and lifting bitvecs with bw = 1
 - 2024-07-12 Test relop simplification
@@ -559,14 +502,8 @@
 - 2024-06-28 Fixes Batch's push/pop ([#61](https://github.com/formalsec/smtml/issues/61))
 - 2024-06-28 Remove unecessary pc list in interpreter
 - 2024-06-28 Print bitvectors and fps in hexadecimal
-
-## 0.2.1 - 2024-06-27
-
 - 2024-06-27 Release v0.2.1
 - 2024-06-27 Add conflicts on solvers versions outside depopt range
-
-## 0.2.0 - 2024-06-26
-
 - 2024-06-26 Release v0.2.0
 - 2024-06-26 Missing bitwuzla operators `to_fp` and `of_ieee_bv`
 - 2024-06-26 Protect my leaks
@@ -612,9 +549,6 @@
 - 2024-06-26 Extend string and float operators evaluation
 - 2024-06-26 Fixes boolean compare and rename one function
 - 2024-06-18 Remove dune's {build} tag
-
-## 0.1.2 - 2024-06-18
-
 - 2024-06-18 Release v0.1.2
 - 2024-06-18 Small fixes and adds cvc5 CI
 - 2024-06-17 [cvc5 mappings] Fix argument type
@@ -635,9 +569,6 @@
 - 2024-06-11 Update Z3 contraint to include 4.13
 - 2024-06-10 Fixes CI
 - 2024-06-10 Make z3 actually optional
-
-## 0.1.1 - 2024-06-06
-
 - 2024-06-06 Bitwuzla: bool_sort and better error messages
 - 2024-06-06 Fixes parametric mappings
 - 2024-06-06 Missing Fresh modules
@@ -693,9 +624,6 @@
 - 2024-05-24 Add mappings to bisect.exclude
 - 2024-05-24 Add cvc5_mappings
 - 2024-04-22 Update README.md
-
-## 0.1.0 - 2024-04-18
-
 - 2024-04-18 Fixes equality in built-in bitv infix operators
 - 2024-04-18 Fixes redundant os constraints and add more CI
 - 2024-04-18 Copyright headers
@@ -819,9 +747,6 @@
 - 2024-01-12 Remove inline tests
 - 2024-01-12 Boolean constructors
 - 2024-01-12 Clean solvers a bit more
-
-## 0.0.3 - 2024-01-10
-
 - 2024-01-10 Update CHANGES.md
 - 2024-01-10 Add hc tests
 - 2024-01-10 Improve bitv expression construction
@@ -829,9 +754,6 @@
 - 2024-01-10 Update CHANGES.md
 - 2024-01-10 Adds `Ceil` and `Floor` operators to FPA ([#47](https://github.com/formalsec/smtml/issues/47))
 - 2024-01-10 Only add simplifier to incremental solver
-
-## 0.0.2 - 2024-01-09
-
 - 2024-01-09 Finish support for bv8
 - 2024-01-09 Add QF_BVFP logic
 - 2024-01-09 Revert incremental behaviour in batch solver
@@ -864,9 +786,6 @@
 - 2023-11-21 Adds zarith dependency
 - 2023-11-20 Update deploy workflow
 - 2023-11-20 Adds documentation and deploy action
-
-## 0.0.1 - 2023-11-19
-
 - 2023-11-19 Adds available arch information
 - 2023-11-19 Improve pp
 - 2023-11-19 Update metadata
